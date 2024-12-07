@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Category, Product
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -28,3 +29,9 @@ def product_detail(request, id, slug):
     return render(request,
                   'shop/product/detail.html',
                   {'product': product})
+
+
+def index(request):
+    title = {'greeting': 'Welcome to the shop!'}
+    return render(request,
+                  'shop/index.html', title)
