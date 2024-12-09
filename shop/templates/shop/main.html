@@ -14,11 +14,11 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <img src="{% static 'img/swift.png' %}" alt="Swivly Logo">
+                <img src="{% static 'img/swivly.png' %}" alt="Swivly Logo">
                 <h1>Swivly</h1>
             </div>
             <nav class="nav">
-                <a href="#">Home</a>
+                <a href="{% url 'shop:index' %}">Home</a>
                 <a href="{% url 'shop:product_list' %}">Market Place</a>
                 <a href="#">Accommodation</a>
                 <a href="#">Contact Us</a>

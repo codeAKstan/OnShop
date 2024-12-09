@@ -44,19 +44,19 @@ body {
 
 .auth .btn.login {
     background-color: white;
-    color: #0000ff;
+    color: #6666ff;
     border: 1px solid white;
     border-radius: 30px;
 }
 
 .auth .btn.signup {
-    background-color: #3cb371;
+    background-color: #22FF3D;
     color: white;
     border-radius: 30px;
 }
 
 .hero {
-    background-image: url('/static/img/background.png');
+    background-image: url('/static/img/background.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -89,13 +89,13 @@ body {
 }
 
 .cta-buttons .btn.primary {
-    background-color: #3cb371;
+    background-color: #22FF3D;
     color: white;
 }
 
 .cta-buttons .btn.secondary {
-    background-color: #6666ff;
-    color: white;
+    background-color: #fff;
+    color: #6666ff;
 }
 
 .footer {
