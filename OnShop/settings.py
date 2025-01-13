@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'chat.apps.ChatConfig',
-    'channels'
+    'channels',
+    'book'
 ]
 
 MIDDLEWARE = [
